@@ -54,7 +54,7 @@
     <div class='row' >
 
       <div class="col-lg-6">
-        <h1>Meet new and interesting dogs nearby.</h1>
+        <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
         <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i> Download</button>
         <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fab fa-google-play"></i> Download</button>
       </div>
@@ -71,24 +71,27 @@
   <!-- Features -->
 
   <section id="features">
-    <div class="row ft-div">
+    <div class="container-fluid">
+      <div class="row ft-div">
 
-      <div class="col-lg-4">
-        <i class="fas fa-check-circle ft-icon"></i>
-        <h3>Easy to use.</h3>
-        <p>So easy to use, even your dog could do it.</p>
-      </div>
-      <div class="col-lg-4">
-        <i class="fas fa-bullseye ft-icon"></i>
-        <h3>Elite Clientele</h3>
-        <p>We have all the dogs, the greatest dogs.</p>
-      </div>
-      <div class="col-lg-4">
-        <i class="fas fa-heart ft-icon"></i>
-        <h3>Guaranteed to work.</h3>
-        <p>Find the love of your dog's life or your money back.</p>
+        <div class="col-lg-4">
+          <i class="fas fa-check-circle ft-icon"></i>
+          <h3 class='feature-title'>Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fas fa-bullseye ft-icon"></i>
+          <h3 class='feature-title'>Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fas fa-heart ft-icon"></i>
+          <h3 class='feature-title'>Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
       </div>
     </div>
+
 
 
   </section>
@@ -98,32 +101,35 @@
 
   <section id="testimonials">
 
+    <div class="container-fluid">
+      <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval='3000' data-bs-pause='hover'>
+    <div class="carousel-inner">
+      <div class="carousel-item active container-fluid" >
+        <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+        <img class='testimonial-image' src="images/dog-img.jpg" alt="dog-profile">
+        <em>Pebbles, New York</em>
 
-    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval='3000' data-bs-pause='hover'>
-  <div class="carousel-inner">
-    <div class="carousel-item active" >
-      <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-      <img class='testimonial-image' src="images/dog-img.jpg" alt="dog-profile">
-      <em>Pebbles, New York</em>
+      </div>
+      <div class="carousel-item container-fluid" >
+        <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+        <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+        <em>Beverly, Illinois</em>
+
+      </div>
 
     </div>
-    <div class="carousel-item" >
-      <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-      <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-      <em>Beverly, Illinois</em>
-
-    </div>
-
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+
+    </div>
+
 
 
 
@@ -155,7 +161,7 @@
               <h3>Chihuahua</h3>
           </div>
            <div class='card-body'>
-             <h2>Free</h2>
+             <h2 class='price-text'>Free</h2>
              <p>5 Matches Per Day</p>
              <p>10 Messages Per Day</p>
              <p>Unlimited App Usage</p>
@@ -173,7 +179,7 @@
             <h3>Labrador</h3>
           </div>
            <div class='card-body'>
-             <h2>$49 / mo</h2>
+             <h2 class='price-text'>$49 / mo</h2>
              <p>Unlimited Matches</p>
              <p>Unlimited Messages</p>
              <p>Unlimited App Usage</p>
@@ -191,7 +197,7 @@
               <h3>Mastiff</h3>
           </div>
            <div class='card-body'>
-             <h2>$99 / mo</h2>
+             <h2 class='price-text'>$99 / mo</h2>
              <p>Pirority Listing</p>
              <p>Unlimited Matches</p>
              <p>Unlimited Messages</p>
@@ -215,10 +221,14 @@
   <!-- Call to Action -->
 
   <section id="cta">
+    <div class="container-fluid">
+      <h3 class='cta-heading'>Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i>Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fab fa-google-play"></i>Download</button>
 
-    <h3 class='cta-heading'>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i>Download</button>
-    <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fab fa-google-play"></i>Download</button>
+
+    </div>
+
 
   </section>
 
@@ -226,11 +236,14 @@
   <!-- Footer -->
 
   <footer id="footer">
-    <i class="fab fa-instagram footer-logo"></i>
-    <i class="fab fa-twitter footer-logo"></i>
-    <i class="fab fa-facebook footer-logo"></i>
-    <i class="fas fa-envelope footer-logo"></i>
-    <p>© Copyright 2018 TinDog</p>
+    <div class="container-fluid">
+      <i class="fab fa-instagram footer-logo"></i>
+      <i class="fab fa-twitter footer-logo"></i>
+      <i class="fab fa-facebook footer-logo"></i>
+      <i class="fas fa-envelope footer-logo"></i>
+      <p>© Copyright 2018 TinDog</p>
+    </div>
+
 
   </footer>
 
